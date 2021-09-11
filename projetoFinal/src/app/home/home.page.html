@@ -1,20 +1,85 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+<ion-header class="ion-no-border">
+  <ion-toolbar class="ion-padding-start ion-padding-end ion-padding-top">
+    <ion-icon name="menu-outline" slot="start"></ion-icon>
+    <ion-title> Weather </ion-title>
+    <span slot="end">
+      <ion-icon name="notification-outline"></ion-icon>
+      <ion-badge>&nbsp;</ion-badge>
+    </span>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+<ion-content>
+  <h4 class="location">Rio de Janeiro, Brasil</h4>
+  <div class="main-info">
+    <img src="../../assets/img/cloud.png" alt="" />
+    <h5>Nublado</h5>
+    <h1>23°</h1>
+  </div>
+  <div class="other-info ion-padding">
+    <ion-card class="ion-padding">
+      <div class="info">
+        <h5>Vento</h5>
+        <h3>N 7km/h</h3>
+      </div>
+    </ion-card>
+    <ion-card class="ion-padding">
+      <div class="info">
+        <h5>Humidade</h5>
+        <h3>58%</h3>
+      </div>
+    </ion-card>
+    <ion-card class="ion-padding">
+      <div class="info">
+        <h5>Chuva</h5>
+        <h3>75%</h3>
+      </div>
+    </ion-card>
+    <ion-card class="ion-padding">
+      <div class="info">
+        <h5>Sensação Térmica</h5>
+        <h3>26°</h3>
+      </div>
+    </ion-card>
+  </div>
+  <div class="hourly">
+    <h3 class="ion-padding-start">Sexta</h3>
+    <div class="hourly-info ion-padding">
+      <div class="info">
+        <p>Agora</p>
+        <img src="../../assets/img/night.png" alt="">
+        <p>23°</p>
+      </div>
+      <div class="info">
+        <p>23:00</p>
+        <img src="../../assets/img/night.png" alt="">
+        <p>23°</p>
+      </div>
+      <div class="info">
+        <p>00:00</p>
+        <img src="../../assets/img/night.png" alt="">
+        <p>23°</p>
+      </div>
+      <div class="info">
+        <p>01:00</p>
+        <img src="../../assets/img/night.png" alt="">
+        <p>23°</p>
+      </div>
+      <div class="info">
+        <p>02:00</p>
+        <img src="../../assets/img/night.png" alt="">
+        <p>23°</p>
+      </div>
+      <div class="info">
+        <p>03:00</p>
+        <img src="../../assets/img/night.png" alt="">
+        <p>23°</p>
+      </div>
+      <div class="info">
+        <p>04:00</p>
+        <img src="../../assets/img/night.png" alt="">
+        <p>23°</p>
+      </div>
+    </div>
   </div>
 </ion-content>
