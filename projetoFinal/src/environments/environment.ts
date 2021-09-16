@@ -4,7 +4,9 @@
 
 export const environment = {
   production: true,
-  firebaseConfig : {
+};
+
+export const firebaseConfig = {
 	  apiKey: "AIzaSyD_bBWENcXx_-ztbIvyEywAOUebEEiqi_4",
 	  authDomain: "projetofinal-d307c.firebaseapp.com",
 	  projectId: "projetofinal-d307c",
@@ -12,8 +14,7 @@ export const environment = {
 	  messagingSenderId: "681802763137",
 	  appId: "1:681802763137:web:09bcbd4f71c43841033680",
 	  measurementId: "G-01NJLRK5SB"
-	}
-};
+}
 
 /*
  * For easier debugging in development mode, you can import the following file
