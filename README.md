@@ -38,7 +38,7 @@ Você pode visualizar o layout do projeto através:
 - [Layout Mobile](https://www.figma.com/file/l2jTjip8rSXdi8IknogQH2/App-Mobile?node-id=0%3A1);
 
 ## 🔥 Checklist do Desenvolvimento do Projeto
-- [] Criar o projeto base
+- [x] Criar o projeto base
 - [] Página de Login
 - [] Página de Cadastro
 - [] Página Inicial
@@ -56,3 +56,4 @@ Esse projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICEN
 
 ---
 <p align="center">Criado by Jéssica L. Barbosa and Rayanne da P. Ramos </p>
+
