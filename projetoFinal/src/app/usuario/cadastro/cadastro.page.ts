@@ -23,7 +23,7 @@ export class CadastroPage implements OnInit {
 	cadastrarUsuario() {
 		this.autenticacaoService.cadastroFirebase(this.email, this.password)
 		.then((res) => {
-			this.router.navigate(['app/home/home']);
+			this.router.navigate(['home']);
 		}).catch((error) => {
 			this.mensagem = "Erro ao cadastrar usuário";
 			this.exibeMensagem();

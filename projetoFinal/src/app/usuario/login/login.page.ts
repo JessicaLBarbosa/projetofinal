@@ -23,7 +23,7 @@ export class LoginPage implements OnInit {
 	loginUsuario() {
 		this.autenticacaoService.loginFirebase(this.email, this.password)
 		.then((res) => {
-			this.router.navigate(['app/home/home']);
+			this.router.navigate(['home']);
 		}).catch((error) => {
 			this.mensagem = "E-mail e/ou Senha incorreto(s)";
 			this.exibeMensagem();
